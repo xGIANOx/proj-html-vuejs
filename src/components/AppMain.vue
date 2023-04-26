@@ -18,7 +18,7 @@ export default {
                         FOOD IS OUR COMMON GROUND, A UNIVERSAL EXPERIENCE.
                     </h2>
 
-                    <p>
+                    <p class="fw-light">
                         Debitis laudantium iure sit dolor aut cum quae voluptatibus distinctio dolorum ut magni consequuntur, dolorem delectus eum.
                         Tempora commodi earum expedita, quasi maxime blanditiis ex ad nesciunt dignissimos viverra dui.
                     </p>
@@ -31,6 +31,32 @@ export default {
                         CALIFORNIA ROLLS - $22
                     </div>
                 </div>
+            </div>
+
+            <div class="row justify-content-center sushi_icons">
+                <div class="col-4 text-center">
+                    <img src="../assets/img/sushi-1.png" alt="">
+                    <h5 class="mt-4 mb-4">THE BEST TABLE IN TOWN</h5>
+                    <hr class="w_30 mt-3 mb-3">
+                    <p class="fw-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nam debitis laudantium provident temporibus distinctio! Iure harum, sunt tempora, quam quo aspernatur aliquid.</p>
+                    <button type="button" class="btn btn-outline-dark px-5 rounded-0">EXPLORE THE MENU</button>
+                </div>
+                <div class="col-4 text-center">
+                    <img src="../assets/img/sushi-2.png" alt="">
+                    <h5 class="mt-4 mb-4">PERFECT FOR GROUPS</h5>
+                    <hr class="w_30 mt-3 mb-3">
+                    <p class="fw-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nam debitis laudantium provident temporibus distinctio! Iure harum, sunt tempora, quam quo aspernatur aliquid.</p>
+                    <button type="button" class="btn btn-outline-dark px-5 rounded-0">MAKE A RESERVATION</button>
+                </div>
+                <div class="col-4 text-center">
+                    <img src="../assets/img/sushi-3.png" alt="">
+                    <h5 class="mt-4 mb-4">FRESH PRODUCE EVRYDAY</h5>
+                    <hr class="w_30 mt-3 mb-3">
+                    <p class="fw-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nam debitis laudantium provident temporibus distinctio! Iure harum, sunt tempora, quam quo aspernatur aliquid.</p>
+                    <button type="button" class="btn btn-outline-dark px-5 rounded-0">LEARN MORE ABOUT US</button>
+                </div>
+                
+
             </div>
         </div>
     </section>
@@ -62,6 +88,17 @@ export default {
     .california_rolls:hover{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+    .w_30{
+        width: 30%;
+        margin: auto;
+    }
+    button{
+        font-size: 0.75rem;
+    }
 
+    .sushi_icons{
+        margin-top: 10rem;
+        margin-bottom: 3rem;
+    }
 
 </style>
