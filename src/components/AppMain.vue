@@ -2,6 +2,8 @@
 import UniversalExperience from './UniversalExperience.vue'
 import HeroComponent from './HeroComponent.vue'
 import CriticsComponent from './CriticsComponent.vue'
+import SponsoredPlate from './SponsoredPlate.vue'
+
 
 
 
@@ -10,7 +12,8 @@ export default {
     components : {
         UniversalExperience,
         HeroComponent,
-        CriticsComponent
+        CriticsComponent,
+        SponsoredPlate,
     }
 }
 </script>
@@ -20,6 +23,7 @@ export default {
     <UniversalExperience></UniversalExperience>
     <HeroComponent></HeroComponent>
     <CriticsComponent></CriticsComponent>
+    <SponsoredPlate></SponsoredPlate>
 
 </template>
 
