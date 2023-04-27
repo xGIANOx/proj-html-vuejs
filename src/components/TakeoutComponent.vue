@@ -33,7 +33,8 @@ export default{
 <style lang="scss" scoped>
 
     .container_xl{
-        margin-top: 7rem;
+        margin-top: 13rem;
+
     }
     .col-7{
         background-image: url("../assets/img/slider72x-scaled.jpg");

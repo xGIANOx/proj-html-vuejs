@@ -48,7 +48,7 @@ export default {
                 Demos
             </div>
             <div class="price  d-flex align-items-center justify-content-center p-1 flex-column py-2">
-                <div class="green_price">
+                <div class="green_price fw-bold">
                     <div class="dollar">
                         $
                     </div>
