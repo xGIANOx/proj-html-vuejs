@@ -13,6 +13,7 @@ export default{
 <template>
 
 <h3 class="fw-lighter text-center mb-5"> <em>What critics are saying about us</em> </h3>
+<div class="dash m-auto"></div>
 
 <div class="container mb-5">
     <div class="row">
