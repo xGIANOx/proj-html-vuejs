@@ -5,10 +5,14 @@ import App from './App.vue'
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faFolderTree } from "@fortawesome/free-solid-svg-icons";
+import { faCar } from "@fortawesome/free-solid-svg-icons";
+
 
 
 library.add(faCartShopping);
 library.add(faFolderTree);
+library.add(faCar);
+
 
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";

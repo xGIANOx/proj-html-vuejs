@@ -3,6 +3,8 @@ import UniversalExperience from './UniversalExperience.vue'
 import HeroComponent from './HeroComponent.vue'
 import CriticsComponent from './CriticsComponent.vue'
 import SponsoredPlate from './SponsoredPlate.vue'
+import TakeoutComponent from './TakeoutComponent.vue'
+
 
 
 
@@ -14,6 +16,7 @@ export default {
         HeroComponent,
         CriticsComponent,
         SponsoredPlate,
+        TakeoutComponent,
     }
 }
 </script>
@@ -24,6 +27,7 @@ export default {
     <HeroComponent></HeroComponent>
     <CriticsComponent></CriticsComponent>
     <SponsoredPlate></SponsoredPlate>
+    <TakeoutComponent></TakeoutComponent>
 
 </template>
 
