@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center sushi_icons">
+            <div class="row justify-content-center sushi_icons mb-5">
                 <div class="col-4 text-center">
                     <img src="../assets/img/sushi-1.png" alt="">
                     <h5 class="mt-4 mb-4">THE BEST TABLE IN TOWN</h5>
