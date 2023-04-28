@@ -6,6 +6,8 @@ import SponsoredPlate from './SponsoredPlate.vue'
 import NewsComponent from './NewsComponent.vue'
 import TakeoutComponent from './TakeoutComponent.vue'
 import MenuComponent from './MenuComponent.vue'
+import SponsoredMenu from './SponsoredMenu.vue'
+
 
 
 
@@ -22,6 +24,7 @@ export default {
         NewsComponent,
         TakeoutComponent,
         MenuComponent,
+        SponsoredMenu,
     }
 }
 </script>
@@ -35,6 +38,7 @@ export default {
     <NewsComponent></NewsComponent>
     <TakeoutComponent></TakeoutComponent>
     <MenuComponent></MenuComponent>
+    <SponsoredMenu></SponsoredMenu>
 
 </template>
 
