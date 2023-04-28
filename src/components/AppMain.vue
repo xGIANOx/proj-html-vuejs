@@ -31,13 +31,13 @@ export default {
 
 <template>
 
-    <UniversalExperience></UniversalExperience>
+    <UniversalExperience id="history"></UniversalExperience>
     <HeroComponent></HeroComponent>
-    <CriticsComponent></CriticsComponent>
+    <CriticsComponent id="critics"></CriticsComponent>
     <SponsoredPlate></SponsoredPlate>
-    <NewsComponent></NewsComponent>
-    <TakeoutComponent></TakeoutComponent>
-    <MenuComponent></MenuComponent>
+    <NewsComponent id="bulletin"></NewsComponent>
+    <TakeoutComponent id="takeout"></TakeoutComponent>
+    <MenuComponent id="menu"></MenuComponent>
     <SponsoredMenu></SponsoredMenu>
 
 </template>

@@ -18,9 +18,9 @@ export default{
 
 <template>
   
-<AppHeader></AppHeader>
+<AppHeader id="home"></AppHeader>
 <Appmain></Appmain>
-<AppFooter></AppFooter>
+<AppFooter id="reservation"></AppFooter>
 
 
 </template>

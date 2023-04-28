@@ -4,7 +4,7 @@ export default{
 }
 </script>
 
-<template>
+<template id="bulletin">
 
   <h3 class="fw-lighter text-center"> <em>Latest news & promotions</em> </h3>  
   <div class="dash m-auto"></div>

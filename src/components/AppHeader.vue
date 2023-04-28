@@ -27,14 +27,14 @@ export default {
             <p class="hero_p">
                 Avada (/a’va:da/,うま味) can be translated from Japanese as Deliciousness. It is also known as the fifth flavor after Sweet, Salty, Bitter, and Sour. Avada is a rich and savory deliciousness that evokes a sensory and emotional experience of taste, harmony, and satisfaction.
             </p>
-            <button type="button" class="btn btn-outline-light rounded-0 px-4">EXPLORE THE MENU</button>
+            <button type="button" class="btn btn-outline-light rounded-0 px-4" href="#">EXPLORE THE MENU</button>
           </div>
         </div>
 
         <div class="col-7 position-relative">
           <ul class="mt_center d-flex justify-content-center">
             <li v-for="voice in main_menu" class="ms-3 me-3 d-flex align-items-center">
-              <a href="#">{{ voice.item }}</a>
+              <a :href="`#${voice.id}`">{{ voice.item }}</a>
               <span v-if="voice.new_badge" class="badge rounded-0 ms-2">New</span>
             </li>
             <li>
