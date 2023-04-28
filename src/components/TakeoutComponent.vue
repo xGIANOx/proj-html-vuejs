@@ -22,7 +22,7 @@ export default{
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             
-            <a href="../assets/pdf/Avada-menu.pdf " download><button type="button" class="btn btn-outline-light rounded-0 px-4"><font-awesome-icon icon="car" class="me-2"/>VIEW TAKEOUT MENU</button></a>
+            <a href="../assets/pdf/Avada-menu.pdf " download="Avada-menu"><button type="button" class="btn btn-outline-light rounded-0 px-4"><font-awesome-icon icon="car" class="me-2"/>VIEW TAKEOUT MENU</button></a>
           </div>
             </div>
         </div>

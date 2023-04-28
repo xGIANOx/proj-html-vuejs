@@ -34,7 +34,7 @@ export default {
         <div class="col-7 position-relative">
           <ul class="mt_center d-flex justify-content-center">
             <li v-for="voice in main_menu" class="ms-3 me-3 d-flex align-items-center">
-              <a href="#" class="text-decoration-none">{{ voice.item }}</a>
+              <a href="#">{{ voice.item }}</a>
               <span v-if="voice.new_badge" class="badge rounded-0 ms-2">New</span>
             </li>
             <li>
@@ -83,9 +83,11 @@ ul{
 }
 a{
     color: rgb(225, 222, 222);
+    text-decoration: none;
 }
 a:hover{
     color: white;
+    text-decoration:underline;
 }
 .badge{
     color: rgb(225, 222, 222);
